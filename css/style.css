@@ -2,3 +2,8 @@
 .slider h5 {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5); //1px pertama posisi x kanan, y bawah 1px blurnya 3px bayangan hitam kadar merah,hijau,biru,transparansi
 }
+
+
+.parallax-container {
+    height: 240px;
+}

@@ -95,6 +95,12 @@
                     </div>
                 </div>
             </section>
+            <!-- Clients -->
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="img/slider/4.png">
+                </div>
+            </div>
             <!--JavaScript at end of body for optimized loading-->
             <script type="text/javascript" src="js/materialize.min.js"></script>
             <script>
@@ -107,7 +113,11 @@
                     height: 500, //tingginya
                     transition: 600, //efek transisinya tulisan muncul
                     interval: 3000 //efek ganti gambar jika sudah tdk ad opsi tdk usah pakai koma
+
                 });
+
+                const parallax = document.querySelectorAll('.parallax');
+                M.Parallax.init(parallax)
             </script>
         </body>
 </html>
