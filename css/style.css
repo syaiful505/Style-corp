@@ -18,3 +18,7 @@
     max-width: 150px;
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
+
+section {
+    padding: 20px 0;
+} /* sebelum pakai ini ada jarak putih putih pada section dan 0 itu adalah jarak putih tsb  */
